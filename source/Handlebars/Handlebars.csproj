@@ -30,6 +30,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>../handlebars.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion> <!-- Keep AssemblyVersion fixed for all 1.x releases -->
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net452'">

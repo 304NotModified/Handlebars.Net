@@ -27,6 +27,9 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/rexm/Handlebars.Net</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../handlebars.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net452'">
